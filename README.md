@@ -1,3 +1,7 @@
+---
+
+---
+
 # **Soft-NMS_Cascade-RCNN**
 
 ## Abstract
@@ -12,7 +16,7 @@ This project is based on Cascade-RCNN_Tensorflow by [YangXue](https://github.com
 | method | AP | AP50 | AP60 | AP70 | AP80 | AP90 |
 |------------|:---:|:--:|:--:|:--:|:--:|:--:|
 |Vgg16 Faster-RCNN|0.4059| 0.6954 | 0.6032 | 0.4506 | 0.2319 | 0.0488 |
-|Soft-NMS Vgg16 Faster-RCNN|||||||
+|Soft-NMS Vgg16 Faster-RCNN||0.6946|||||
 |Vgg16 Cascade-RCNN|0.4468| 0.6856 | 0.6120 | 0.4951 | 0.3331 | 0.1080 |
 |MobilenetV2-Faster-RCNN|        | 0.5416 |        |        |        |        |
 |Soft-NMS MobilenetV2-Faster-RCNN|        | 0.5423 |        |        |        |        |
@@ -27,7 +31,7 @@ This project is based on Cascade-RCNN_Tensorflow by [YangXue](https://github.com
 ## Download Model
 1、please download [resnet50_v1](http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz)、[resnet101_v1](http://download.tensorflow.org/models/resnet_v1_101_2016_08_28.tar.gz) 、
 
-[vgg16]: http://arxiv.org/abs/1409.1556.pdf
+> [vgg16]: http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz
 
  pre-trained models on Imagenet, put it to $PATH_ROOT/data/pretrained_weights.     
 2、please download [mobilenet_v2](https://storage.googleapis.com/mobilenet_v2/checkpoints/mobilenet_v2_1.0_224.tgz) pre-trained model on Imagenet, put it to $PATH_ROOT/data/pretrained_weights/mobilenet.     
